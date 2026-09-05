@@ -44,16 +44,24 @@ The final output contains:
 
 ## Resuts
 ### DEM Elevation & Slope
+<p align="justify">
 First, DEM data were downloaded, and elevations were calculated to characterize topographic variation across the study area. Elevation values range from approximately 123 to 298 m, showing the variation of the terrain. Moreover, slope analysis was also conducted  to quantify terrain steepness. The resulting raster highlights the contrast between relatively flat floodplain and steeper upland terrain. Slope is an important conditioning factor for runoff concentration, erosion, and sediment transport. Around the floodplain zone, the slope was nearly 0o where some regions it reached upto 39o. Then it was processed for further hydrological modelling.  Fill depression (Wang & Liu) was used to remove artificial pits and fill the sinks. The processed DEM was then used as the primary elevation input for further hydrological analysis. 
+</p>
 
 ### Subbasins and Watershed Structure
+<p align="justify">
 With the filled DEM, the downslope direction of surface flow was identified with the D8 pointer tool. With flow direction data, flow accumulation and stream extraction were also performed. To extract the stream network, flow direction data was used with a threshold of 50,000. The reason of using the threshold was to retain only larger drainage paths. Finally, with all the datasets, watershed and subbasin analyses were conducted. They show a connected hierarchy of tributaries toward the main drainage outlets. 
+</p>
 
 ### Strahler Stream Ordering
+<p align="justify">
 The extracted drainage network was classified using the Strahler stream-order concept. To extract this, the Strahler order tool was used with flow direction datasets. First-order streams represent the smallest mapped headwater channels. When two streams of the same order meet, the downstream segment increases by one order. On the other hand, when different orders meet, the downstream segment retains the higher order. This provides a hierarchical description of drainage-network structure. 
+</p>
 
 ### Sediment Transport Index (STI)
-The STI was extracted from specific catchment area (SCA) and slope to identify spatial variations in the relative potential for sediment transport. Areas with higher STI values indicate locations where the combination of contributing area and terrain slope may promote greater sediment-transport potential.
+<p align="justify">
+The STI was extracted from the specific catchment area (SCA) and slope to identify spatial variations in the relative potential for sediment transport. Areas with higher STI values indicate locations where the combination of contributing area and terrain slope may promote greater sediment-transport potential.
+</p>
 
 ## Limitations
 - Stream extraction depends strongly on the selected flow-accumulation threshold.
