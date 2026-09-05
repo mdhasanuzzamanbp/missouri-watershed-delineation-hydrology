@@ -2,7 +2,7 @@
 
 ## Executive Summary
 <p align="justify">
-I used QGIS to demonstrate a hydrological workflow for analysing the terrain, drainage network, and watershed structure of a selected study area in Missouri, USA. A digital elevation model (DEM) was processed in QGIS using Whitebox Workflows to prepare the terrain for hydrological modeling. 
+I used QGIS to demonstrate a hydrological workflow for analysing the terrain, drainage network, and watershed structure of a selected study area in Missouri, USA. I processed a digital elevation model (DEM) in QGIS using Whitebox Workflows to prepare the terrain for hydrological modeling. 
 </p>
 
 The final output contains:
@@ -39,15 +39,12 @@ The final output contains:
 
 | Dataset / Tool | Role | Usage |
 |---|---|---|
-| Digital Elevation Model (DEM)¹ | Primary elevation surface | Terrain and hydrological modelling |
-| Watershed Boundary Dataset (WBD)² | Reference hydrographic boundaries | Study-area and watershed context |
-
-¹ [USGS EarthExplorer](https://earthexplorer.usgs.gov/)  
-² [USGS National Map](https://apps.nationalmap.gov/)
+| [Digital Elevation Model (DEM)](https://earthexplorer.usgs.gov/) | Primary elevation surface | Terrain and hydrological modelling |
+| [Watershed Boundary Dataset (WBD)](https://apps.nationalmap.gov/) | Reference hydrographic boundaries | Study-area and watershed context |
 
 ## Resuts
 ### DEM Elevation & Slope
-At first, DEM data were downloaded, and the elevations were calculated to characterize the topographic variation across the study area. Elevation values range from approximately 123 to 298 m, showing the variation of the terrain. Moreover, slope analysis was also conducted  to quantify terrain steepness. The resulting raster highlights the contrast between relatively flat floodplain and steeper upland terrain. Slope is an important conditioning factor for runoff concentration, erosion, and sediment transport. Around the floodplain zone, the slope was nearly 0o where some regions it reached upto 39o. Then it was processed for further hydrological modelling.  Fill depression (Wang & Liu) was used to remove artificial pits and fill the sinks. The processed DEM was then used as the primary elevation input for further hydrological analysis. 
+First, DEM data were downloaded, and elevations were calculated to characterize topographic variation across the study area. Elevation values range from approximately 123 to 298 m, showing the variation of the terrain. Moreover, slope analysis was also conducted  to quantify terrain steepness. The resulting raster highlights the contrast between relatively flat floodplain and steeper upland terrain. Slope is an important conditioning factor for runoff concentration, erosion, and sediment transport. Around the floodplain zone, the slope was nearly 0o where some regions it reached upto 39o. Then it was processed for further hydrological modelling.  Fill depression (Wang & Liu) was used to remove artificial pits and fill the sinks. The processed DEM was then used as the primary elevation input for further hydrological analysis. 
 
 ### Subbasins and Watershed Structure
 With the filled DEM, the downslope direction of surface flow was identified with the D8 pointer tool. With flow direction data, flow accumulation and stream extraction were also performed. To extract the stream network, flow direction data was used with a threshold of 50,000. The reason of using the threshold was to retain only larger drainage paths. Finally, with all the datasets, watershed and subbasin analyses were conducted. They show a connected hierarchy of tributaries toward the main drainage outlets. 
