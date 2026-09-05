@@ -1,7 +1,9 @@
 # Hydrological Analysis of a Watershed in Western St. Louis County, Missouri, USA
 
 ## Executive Summary
+<p align="justify">
 I used QGIS to demonstrate a hydrological workflow for analysing the terrain, drainage network, and watershed structure of a selected study area in Missouri, USA. A digital elevation model (DEM) was processed in QGIS using Whitebox Workflows to prepare the terrain for hydrological modeling. 
+</p>
 
 The final output contains:
 - Sub-basins
@@ -30,8 +32,8 @@ The final output contains:
 <br>
 
 ## Tools
-QGIS: Whitebox workflows, Fill depression (Wang & Liu), Slope, Sediment Transport Index (STI), Extract streams, D8 pointer, D8 flow accumulation, Watershed, Subbasins, Strahler stream order, point <br>
-Microsoft Word: Documentation
+**QGIS:** Whitebox workflows, Fill depression (Wang & Liu), Slope, Sediment Transport Index (STI), Extract streams, D8 pointer, D8 flow accumulation, Watershed, Subbasins, Strahler stream order, point <br>
+**Microsoft Word:** Documentation
 
 
 Project Workflow
