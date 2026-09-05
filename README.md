@@ -15,16 +15,18 @@ The final output contains:
 <img width="4488" height="4960" alt="Final Map" src="https://github.com/user-attachments/assets/b5fad3bc-5c70-4711-bbd8-d091bb992f4a" />
 </p>
 
-Workflow
-Prepared a DEM for hydrological analysis by removing artificial depressions.
-Extracted flow direction and flow accumulation from the conditioned DEM.
-Extracted a stream network using a 50,000 flow-accumulation threshold.
-Assigned Strahler stream orders to represent the drainage-network hierarchy.
-Delineated watersheds and sub-basins from selected outlet locations.
-Generated terrain and hydrological indicators, particularly slope and Sediment Transport Index (STI).
-Produce clear cartographic outputs suitable for watershed interpretation and GIS portfolio presentation.
+## Project Workflow
+- Prepared a DEM for hydrological analysis by removing artificial depressions.
+- Extracted flow direction and flow accumulation from the conditioned DEM.
+- Extracted a stream network using a 50,000 flow-accumulation threshold.
+- Assigned Strahler stream orders to represent the drainage-network hierarchy.
+- Delineated watersheds and sub-basins from selected outlet locations.
+- Generated terrain and hydrological indicators, particularly slope and Sediment Transport Index (STI).
+- Produced clear cartographic outputs suitable for watershed interpretation and GIS portfolio presentation.
 
-
+<p align="center">
+<img width="4113" height="1886" alt="Picture1" src="https://github.com/user-attachments/assets/4c45647c-ad15-4d82-9e0a-a2f0e2dbecc6" />
+</p>
 
 
 Tools
