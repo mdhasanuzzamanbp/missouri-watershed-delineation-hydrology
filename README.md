@@ -2,7 +2,7 @@
 
 ## Executive Summary
 <p align="justify">
-I used QGIS to demonstrate a hydrological workflow for analysing the terrain, drainage network, and watershed structure of a selected study area in Missouri, USA. I processed a digital elevation model (DEM) in QGIS using Whitebox Workflows to prepare the terrain for hydrological modeling. 
+I used QGIS to demonstrate a hydrological workflow for analysing the terrain, drainage network, and watershed structure of a selected study area in Missouri, USA. To do that, I processed a digital elevation model (DEM) in QGIS using Whitebox Workflows to prepare the terrain for hydrological modeling. 
 </p>
 
 The final output contains:
