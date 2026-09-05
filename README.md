@@ -33,9 +33,13 @@ The final output contains:
 
 ## Tools
 <p align="justify">
-**QGIS:** Whitebox workflows, Fill depression (Wang & Liu), Slope, Sediment Transport Index (STI), Extract streams, D8 pointer, D8 flow accumulation, Watershed, Subbasins, Strahler stream order, point 
-<br>  
-**Microsoft Word:** Documentation
+
+**QGIS + Whitebox Workflows:** Fill Depressions (Wang & Liu), D8 Pointer, D8 Flow Accumulation, Slope, Stream Extraction, Watershed Delineation, Sub-basin Delineation, Strahler Stream Order, Sediment Transport Index (STI), and Point Analysis.
+
+<br>
+
+**Microsoft Word:** Technical documentation and report preparation.
+
 </p>
 
 ## Data Sources
