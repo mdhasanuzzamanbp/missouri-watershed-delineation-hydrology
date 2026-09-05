@@ -27,9 +27,9 @@ The final output contains:
 <p align="center">
 <img width="4113" height="1886" alt="Picture1" src="https://github.com/user-attachments/assets/4c45647c-ad15-4d82-9e0a-a2f0e2dbecc6" />
 </p>
+<br>
 
-
-Tools
+## Tools
 QGIS: Whitebox workflows, Fill depression (Wang & Liu), Slope, Sediment Transport Index (STI), Extract streams, D8 pointer, D8 flow accumulation, Watershed, Subbasins, Strahler stream order, point
 Microsoft Word: Documentation
 
