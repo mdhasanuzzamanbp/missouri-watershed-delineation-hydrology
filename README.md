@@ -45,12 +45,12 @@ The final output contains:
 ## Resuts
 ### DEM Elevation & Slope
 <p align="justify">
-First, DEM data were downloaded, and elevations were calculated to characterize topographic variation across the study area. Elevation values range from approximately 123 to 298 m, showing the variation of the terrain. Moreover, slope analysis was also conducted  to quantify terrain steepness. The resulting raster highlights the contrast between relatively flat floodplain and steeper upland terrain. Slope is an important conditioning factor for runoff concentration, erosion, and sediment transport. Around the floodplain zone, the slope was nearly 0o where some regions it reached upto 39o. Then it was processed for further hydrological modelling.  Fill depression (Wang & Liu) was used to remove artificial pits and fill the sinks. The processed DEM was then used as the primary elevation input for further hydrological analysis. 
+First, DEM data were downloaded, and elevations were calculated to characterize topographic variation across the study area. Elevation values range from approximately 123 to 298 m, showing the variation of the terrain. Moreover, slope analysis was also conducted  to quantify terrain steepness. The resulting raster highlights the contrast between relatively flat floodplain and steeper upland terrain. Slope is an important conditioning factor for runoff concentration, erosion, and sediment transport. Around the floodplain zone, the slope was nearly 0<sup>o</sup> where some regions it reached up to 39<sup>o</sup>. Then it was processed for further hydrological modelling.  Fill depression (Wang & Liu) was used to remove artificial pits and fill the sinks. The processed DEM was then used as the primary elevation input for further hydrological analysis. 
 </p>
 
 ### Subbasins and Watershed Structure
 <p align="justify">
-With the filled DEM, the downslope direction of surface flow was identified with the D8 pointer tool. With flow direction data, flow accumulation and stream extraction were also performed. To extract the stream network, flow direction data was used with a threshold of 50,000. The reason of using the threshold was to retain only larger drainage paths. Finally, with all the datasets, watershed and subbasin analyses were conducted. They show a connected hierarchy of tributaries toward the main drainage outlets. 
+With the filled DEM, the downslope direction of surface flow was identified with the D8 pointer tool. With flow direction data, flow accumulation and stream extraction were also performed. To extract the stream network, flow direction data was used with a threshold of 50,000. The reason for using the threshold was to retain only larger drainage paths. Finally, with all the datasets, watershed and subbasin analyses were conducted. They show a connected hierarchy of tributaries toward the main drainage outlets. 
 </p>
 
 ### Strahler Stream Ordering
