@@ -14,7 +14,7 @@ The final output contains:
 - Slope
 
 <p align="center">
-<img width="4488" height="4960" alt="Final Map" src="https://github.com/user-attachments/assets/b5fad3bc-5c70-4711-bbd8-d091bb992f4a" />
+<img width="4488" height="4960" alt="Final Map" src="https://github.com/user-attachments/assets/0dfaa059-796a-4bb4-914d-d1e86d53a36f" />
 </p>
 
 ## Project Workflow
